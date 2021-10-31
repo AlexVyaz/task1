@@ -1,0 +1,60 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: black;
+}
+.header {
+    background-color: #262528;
+    width: 1000px;
+    height: 1390px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.menu,.m1,.m2,.m3{
+    display: inline-block;
+}
+.m1,.m2,.m3 {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    vertical-align: top;
+    font-size: 13px;
+    margin-top: 65px;
+}
+.img{
+    margin-top: 50px;
+    margin-left: 55px;
+}
+.m1{
+    margin-left: 70px;
+}
+.m2{
+    margin-left: 20px;
+}
+.m3{
+    margin-left: 500px;
+    margin-right: 50px;
+}
+.main{
+    margin-top: 100px;
+    margin-left: 155px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+}
+.description{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 155px;
+    color: rgb(255, 255, 255);
+}
+.button{
+    background: blueviolet;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    height: 60px;
+    width: 280px;
+    border-radius: 10px;
+}
