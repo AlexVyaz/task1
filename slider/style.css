@@ -4,14 +4,13 @@
 }
 
 body {
-    background-color: white;
+    background-color: black;
 }
 
 .slider {
-    width: 1100px;
-    height: 600px;
+    width: 200px;
+    height: 120px;
     overflow: hidden;
-    border: 10px solid #fff;
 }
 
 .middle {
@@ -23,15 +22,15 @@ body {
 
 .navigation {
     position: absolute;
-    bottom: 16px;
+    bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
 }
 
 .bar {
-    height: 8px;
-    width: 30px;
+    height: 10px;
+    width: 10px;
     margin: 6px;
     cursor: pointer;
     background-color: #ddd;
