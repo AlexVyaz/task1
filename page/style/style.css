@@ -5,48 +5,49 @@
 body {
     background-color: black;
 }
-.header {
+.main {
     background-color: #262528;
-    width: 1000px;
+    width: 1300px;
     height: 1390px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
 }
-.menu,.m1,.m2,.m3{
+.menu,.m1,.m2,.m3, .f1,.f2,.f3{
     display: inline-block;
 }
-.m1,.m2,.m3 {
+.m1,.m2,.m3,.f1,.f2,.f3 {
     color: rgb(255, 255, 255);
     font-family: 'Montserrat';
     vertical-align: top;
     font-size: 13px;
     margin-top: 65px;
 }
-.img{
+.f4 {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    padding-left: 1100px;
+    font-size: 13px;
+}
+.logo{
     margin-top: 50px;
     margin-left: 55px;
 }
-.m1{
+.m1,.f1{
     margin-left: 70px;
 }
-.m2{
+.m2,.f2{
     margin-left: 20px;
 }
-.m3{
-    margin-left: 450px;
-    margin-right: 50px;
+.m3,.f3{
+    margin-left: 750px;
 }
-.main{
-    /* margin-top: 100px; */
-    /* margin-left: 55px; */
+.title{
     color: rgb(255, 255, 255);
     font-family: 'Montserrat';
 }
 .description{
     font-size: 20px;
     margin-top: 30px;
-    /* margin-left: 155px; */
     color: rgb(255, 255, 255);
 }
 .button{
@@ -61,7 +62,7 @@ body {
 
 /* слайдер - начало*/
 .slider {
-    width: 750px;
+    width: 900px;
     height: 400px;
     overflow: hidden;
 }
@@ -113,11 +114,6 @@ input[name="r"] {
     transition: all .6s ease;
 }
 
-/* .slide img {
-    width: 100%;
-    height: 100%;
-} */
-
 #r1:checked ~ .s1 {
     margin-left: 0;
 }
@@ -132,3 +128,31 @@ input[name="r"] {
 }
 
 /* слайдер - конец */
+/* раздел преимущества */
+.work {    
+    background-color: white;
+    margin-top: 600px;
+    height: 530px;
+}
+.work h2 {
+    padding-top: 100px;
+    margin-left: 55px;
+}
+.img {
+    display: grid;
+    margin-top: 50px;
+    margin-left: 55px;
+    grid-template-columns: 417px 417px 417px;
+}
+.txt1, .txt2, .txt3 {
+    display: grid;
+    grid-template-columns: 20px 117px 117px;
+    position: absolute;
+    top: 1030px;
+    text-transform: uppercase;
+    width: 340px;
+    padding-top: 20px;
+    padding-bottom: 28px;
+    padding-left: 30px;
+    background-color: rgba(39,47,51, 0.85);
+}
